@@ -2,7 +2,7 @@
     package="com.gosoft.mobile_gosoft">
    <application
         android:label="Gosoft"
-        android:name="${applicationName}"
+        android:name="gosoft"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
