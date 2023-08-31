@@ -1,0 +1,156 @@
+{
+  "name": "mobile-gosoft",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/mobile/gosoft/src",
+  "projectType": "application",
+  "targets": {
+    "analyze": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "flutter analyze",
+        "cwd": "apps/mobile/gosoft"
+      }
+    },
+    "clean": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "flutter clean",
+        "cwd": "apps/mobile/gosoft"
+      }
+    },
+    "format": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "flutter format apps/mobile/gosoft/*",
+        "cwd": "apps/mobile/gosoft"
+      }
+    },
+    "test": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "flutter test",
+        "cwd": "apps/mobile/gosoft"
+      }
+    },
+    "doctor": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "flutter doctor",
+        "cwd": "apps/mobile/gosoft"
+      }
+    },
+    "assemble": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "flutter assemble",
+        "cwd": "apps/mobile/gosoft"
+      }
+    },
+    "attach": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "flutter attach",
+        "cwd": "apps/mobile/gosoft"
+      }
+    },
+    "drive": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "flutter drive",
+        "cwd": "apps/mobile/gosoft"
+      }
+    },
+    "gen-l10n": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "flutter gen-l10n",
+        "cwd": "apps/mobile/gosoft"
+      }
+    },
+    "install": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "flutter install",
+        "cwd": "apps/mobile/gosoft"
+      }
+    },
+    "run": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "flutter run",
+        "cwd": "apps/mobile/gosoft"
+      }
+    },
+    "build-aar": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "flutter build aar",
+        "cwd": "apps/mobile/gosoft"
+      },
+      "outputs": [
+        "{workspaceRoot}/apps/mobile/gosoft/build"
+      ]
+    },
+    "build-apk": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "flutter build apk",
+        "cwd": "apps/mobile/gosoft"
+      },
+      "outputs": [
+        "{workspaceRoot}/apps/mobile/gosoft/build"
+      ]
+    },
+    "build-appbundle": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "flutter build appbundle",
+        "cwd": "apps/mobile/gosoft"
+      },
+      "outputs": [
+        "{workspaceRoot}/apps/mobile/gosoft/build"
+      ]
+    },
+    "build-bundle": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "flutter build bundle",
+        "cwd": "apps/mobile/gosoft"
+      },
+      "outputs": [
+        "{workspaceRoot}/apps/mobile/gosoft/build"
+      ]
+    },
+    "build-ios": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "flutter build ios",
+        "cwd": "apps/mobile/gosoft"
+      },
+      "outputs": [
+        "{workspaceRoot}/apps/mobile/gosoft/build"
+      ]
+    },
+    "build-ios-framework": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "flutter build ios-framework",
+        "cwd": "apps/mobile/gosoft"
+      },
+      "outputs": [
+        "{workspaceRoot}/apps/mobile/gosoft/build"
+      ]
+    },
+    "build-ipa": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "flutter build ipa",
+        "cwd": "apps/mobile/gosoft"
+      },
+      "outputs": [
+        "{workspaceRoot}/apps/mobile/gosoft/build"
+      ]
+    }
+  },
+  "tags": []
+}
